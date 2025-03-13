@@ -1,0 +1,10 @@
+﻿<Window x:Class="src.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:src"
+        Title="Image State Control Demo" Height="350" Width="525">
+    <StackPanel>
+        <local:ImageStateControl x:Name="ImageControl" Width="200" Height="200"/>
+        <Button x:Name="NextImageButton" Content="Next Image" Click="NextImageButton_Click"/>
+    </StackPanel>
+</Window>
